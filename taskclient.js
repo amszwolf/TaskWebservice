@@ -14,17 +14,8 @@ var options_ListAll = {
     method: 'GET'
 };
 
-//var options_ListOne = {
-//    host: 'localhost',
-//    port: '3000',
-//    //path: '/index.html'
-//    path: '/tasks/create',
-//    method: 'GET'
-//};
 
-
-
-/*
+/* function requirement:
  * 	tasks add "write some code" 21/08/2019
  * 
  * task update "unit test" "done"
@@ -36,29 +27,6 @@ var options_ListAll = {
 tasks delete "unit test"
  */
 
-//S
-//{
-//    var arguments = process.argv.splice(2);
-//    console.log('所传递的参数是：', arguments);
-
-//    //
-//    // print process.argv
-//    process.argv.forEach(function (val, index, array) {
-//        console.log(index + ': ' + val);
-//    });
-//}
-
-// let isValidDate = Date.parse('03/17/21');
-// if (isNaN(isValidDate))
-
-//function myParseDate(value, dummyPrevious) {
-//    // parseDate 参数为字符串和进制数
-//    const parsedValue = Date.parse(value);
-//    if (isNaN(parsedValue)) {
-//        throw new commander.InvalidArgumentError('Not a date.');
-//    }
-//    return parsedValue;
-//}
 
 //S
 program
@@ -67,8 +35,8 @@ program
     //.option('-c, --config <path>', 'set config path. defaults to ./deploy.conf')
     //.option('-T, --no-tests', 'ignore test hook')
 
-//list all: node tasks.js list  -a
-//list expired: node tasks.js list  2022 / 01 / 01 - x
+//list all: node taskclient.js list  -a
+//list expired: node taskclient.js list  2022 / 01 / 01 - x
 program
     .command('list [duedate]')
 
@@ -117,10 +85,7 @@ program
 
             var MyQuery = {
                 //'taskname': taskname,
-                //'duedate': duedate,
-                //'duedate': parsedValue.toString(),
                 'duedate': duedateStr,
-                //'duedate': parsedValue.toISOString().slice(0, 10),
                 //'status': mystatus,
             };
             var MyQueryStr = querystring.stringify(MyQuery);
@@ -211,17 +176,6 @@ program
             //throw new commander.InvalidArgumentError('Not a date.');
         } else { console.log('%s IS a valid date', duedate); }
 
-        //const postData = JSON.stringify({
-        //    'taskname': taskname,
-        //    'duedate': duedate,
-        //});
-
-        //let params = new URLSearchParams();
-        //params.set("taskname", taskname);
-        //params.set("duedate", duedate);
-
-        //this.options.search = params;
-
         var mystatus = (isNaN(status)) ? status : 'ongoing';
         var MyQuery = {
             'taskname': taskname,
@@ -235,39 +189,13 @@ program
             port: '3000',
             path: '/tasks/create?' + MyQueryStr,
             method: 'POST',
-            //method: 'GET'
-            //headers: {
-            //    'Content-Type': 'application/json',
-            //    'Content-Length': Buffer.byteLength(postData)
-            //search: params
-            //query: {
-            //    'taskname': taskname,
-            //    'duedate': duedate
-            //},
-
         }
 
         options = options_CreateTask;
 
-        //options = options_ListAll;
-
-        //var isWatch = option.x ? true : false;
-        //if (cmd.all) {
-        //    console.log('list:options_ListAll');
-        //    options = options_ListAll;
-        //} else if (cmd.expiringtoday) {
-        //    console.log('list:expiringtoday');
-        //    options = options_ListAll;
-        //} else if (cmd.done) {
-        //    console.log('list:done');
-        //    options = options_ListAll;
-        //} else {
-        //    console.log('list:options_ListAll');
-        //    options = options_ListAll;
-        //}
     });
 
-//node tasks.js create "MyTask1" 2022/01/20
+//node tasks.js delete "MyTask1"
 program
     .command('delete [taskname]') 
 
@@ -279,30 +207,6 @@ program
 
     //parameter order should be the same as command, and param cmd should be the the last
     .action(function (taskname, duedate, status, cmd) {
-        //console.log('delete taskname', (taskname));
-        //console.log('delete duedate', (duedate));
-        //console.log('delete status', (status));
-        //console.log('delete', (cmd.all), (cmd.expiringtoday), (cmd.done));
-
-        // parseDate valid
-        //var parsedValue = Date.parse(duedate);
-        //if (isNaN(parsedValue)) {
-        //    console.log('%s not a valid date', duedate);
-        //    process.exit(1);
-        //} else { console.log('%s IS a valid date', duedate); }
-
-        //var mystatus = (isNaN(status)) ?  : 'ongoing';
-
-        //if (cmd.all) {
-        //    var options_deleteTask = {
-        //        host: 'localhost',
-        //        port: '3000',
-        //        path: '/tasks/delete?' + MyQueryStr,
-        //        method: 'POST',
-
-        //    }
-        //}
-
         var MyQuery = {
             'taskname': taskname,
             //'duedate': duedate,
@@ -314,39 +218,14 @@ program
             host: 'localhost',
             port: '3000',
             path: '/tasks/delete?' + MyQueryStr,
-            method: 'POST',
+            method: 'DELETE',
         }
 
         options = options_deleteTask;
 
     });
 
-//program
-//    .command('exec <cmd>')
-//    .description('run the given remote command')
-//    .action(function (cmd) {
-//        console.log('exec "%s"', cmd);
-//    });
-//program
-//    .command('teardown <dir> [otherDirs...]')
-//    .description('run teardown commands')
-//    .action(function (dir, otherDirs) {
-//        console.log('dir "%s"', dir);
-//        if (otherDirs) {
-//            otherDirs.forEach(function (oDir) {
-//                console.log('dir "%s"', oDir);
-//            });
-//        }
-//    });
-//program
-//    .command('*')
-//    .description('deploy the given env')
-//    .action(function (env) {
-//        console.log('deploying "%s"', env);
-//    });
 program.parse(process.argv);
-
-
 
 
 //var options = options_ListAll;
