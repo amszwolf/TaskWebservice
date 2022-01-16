@@ -1,6 +1,11 @@
+0: Task webservice, using RESTful, programming language is NodeJS. Tested under Windows 10 and Linux.
+
+
 1, Operation to run code
 
 1.1 clone the project
+* https://github.com/amszwolf/TaskWebservice
+
 1.2  Installations
 * npm install
 
@@ -32,8 +37,10 @@ Commands:
 * update task status: node taskclient.js update "MyTask1" done
 * delete task: node taskclient.js delete mytask5
 
-1.5, unit test
-in work directory, run 
+1.5, Unit test:
+In work directory, run 
 * mocha 
 or
 * npm test
+
+2, The architecture, plese refer to TaskWebserviceDiagram.png or TaskWebserviceDiagram.vsdx in source code directory Doc
