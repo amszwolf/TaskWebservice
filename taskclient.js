@@ -61,7 +61,7 @@ program
         //console.log('list taskname', (taskname));
         console.log('list duedate', (duedate));
         //console.log('list status', (status));
-        console.log('list', (cmd.all), (cmd.expiringtoday), (cmd.done));
+        console.log('list', (cmd.all), (cmd.expiringtoday), (cmd.completed));
         //var isWatch = option.x ? true : false;
         if (cmd.all) {
             console.log('list:options_ListAll');
@@ -110,10 +110,23 @@ program
             options = options_ListSome;
 
         }
-        //else if (cmd.done) {
-        //    console.log('list:done');
-        //    options = options_ListAll;
-        //}
+        else if (cmd.completed) {
+            console.log('list:completed');
+            var MyQuery = {
+                //'taskname': taskname,
+                //'duedate': duedateStr,
+                'status': 'completed',
+            };
+            var MyQueryStr = querystring.stringify(MyQuery);
+
+            var options_Listcompleted = {
+                host: 'localhost',
+                port: '3000',
+                path: '/tasks/retrieve?' + MyQueryStr,
+                method: 'GET',
+            }
+            options = options_Listcompleted;
+        }
         else {
             console.log('list:options_ListAll');
             options = options_ListAll;
