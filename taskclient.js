@@ -4,6 +4,17 @@ var http = require('http');
 var program = require('commander');
 const querystring = require('querystring');
 
+const winston = require("winston");
+
+// logger : error: 0, warn: 1, info: 2, verbose: 3, debug: 4, silly: 5
+const logger = winston.createLogger({
+    level: 'info',
+    transports: [
+        new winston.transports.Console(),
+        new winston.transports.File({ filename: "logfile.log" })
+    ]
+});
+
 var options;
 // 用于请求的选项
 var options_ListAll = {
@@ -44,7 +55,7 @@ program
 
     .option('-a, --all', 'list all tasks')
     .option('-x, --expiringtoday', 'list task expiring-today')
-    .option('-d, --done', 'TBC: list Task had been completed')
+    .option('-c, --completed', 'TBC: list Task had been completed')
 
     .action(function (duedate, cmd) {
         //console.log('list taskname', (taskname));
@@ -117,7 +128,7 @@ program
 
     //.option('-a, --all', 'list all tasks')
     //.option('-x, --expiringtoday', 'list task expiring-today')
-    .option('-d, --done', 'list task had been completed')
+    //.option('-d, --done', 'list task had been completed')
 
     //parameter order should be the same as command, and param cmd should be the the last
     .action(function (taskname, duedate, status, cmd) {
@@ -152,46 +163,58 @@ program
 
     });
 
-//node tasks.js create "MyTask1" 2022/01/20
+
+//node taskclient.js update hltask10 completed -s
 program
-    .command('update <taskname> [duedate] [status]')  //sttatus: ['pending', 'ongoing', 'completed']
+    .command('update <taskname> [status]')  //sttatus: ['pending', 'ongoing', 'completed']
 
-    .description('update a task')
+    .description('update a task, param [duedate] need follow opeion -d, and [status] -s')
 
-    //.option('-a, --all', 'list all tasks')
-    //.option('-x, --expiringtoday', 'list task expiring-today')
-    //.option('-d, --done', 'list task had been completed')
+    //.option('-d, --duedate', 'task update duedate')
+    .option('-s, --status', 'task update status')
 
     //parameter order should be the same as command, and param cmd should be the the last
-    .action(function (taskname, duedate, status, cmd) {
+    .action(function (taskname, status, cmd) {
         console.log('create taskname', (taskname));
-        console.log('create duedate', (duedate));
+        //console.log('create duedate', (duedate));
         console.log('create status', (status));
-        console.log('list', (cmd.all), (cmd.expiringtoday), (cmd.done));
+        console.log('create options', (cmd.duedate), (cmd.status));
 
-        // parseDate valid
-        var parsedValue = Date.parse(duedate);
-        if (isNaN(parsedValue)) {
-            console.log('%s not a valid date', duedate);
-            //throw new commander.InvalidArgumentError('Not a date.');
-        } else { console.log('%s IS a valid date', duedate); }
+        //// parseDate valid
+        //var parsedValue = Date.parse(duedate);
+        ////if (isNaN(parsedValue)) {
+        ////    console.log('%s not a valid date', duedate);
+        ////} else { console.log('%s IS a valid date', duedate); }
+        //var duedatestr = duedate;
+        //if ((cmd.duedate) && (!isNaN(parsedValue))){
+        //    duedatestr = duedate;
+        //} else {
+        //    duedatestr = '';
+        //}
 
-        var mystatus = (isNaN(status)) ? status : 'ongoing';
+        //check status
+        logger.info( status );
+        let taskstatusarray = ['pending', 'ongoing', 'completed'];
+        var mystatusstr = status;
+        if ((cmd.status) && taskstatusarray.includes(status)) { mystatusstr = status; }
+        else { mystatusstr = '';}
+        logger.info( mystatusstr);
+
         var MyQuery = {
             'taskname': taskname,
-            'duedate': duedate,
-            'status': mystatus,
+            //'duedate': duedatestr,
+            'status': mystatusstr,
         };
         var MyQueryStr = querystring.stringify(MyQuery);
 
-        var options_CreateTask = {
+        var options_UpdateTask = {
             host: 'localhost',
             port: '3000',
             path: '/tasks/create?' + MyQueryStr,
-            method: 'POST',
+            method: 'PUT',
         }
 
-        options = options_CreateTask;
+        options = options_UpdateTask;
 
     });
 

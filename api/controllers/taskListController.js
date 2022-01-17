@@ -38,7 +38,7 @@ exports.create_a_task = function(req, res) {
     var new_task = new Task({ name: req.query.taskname, duedate: MyTaskDueDate});
 
     //console.log(req.body);
-    logger.info(req);
+    //logger.info(req);
 
   new_task.save(function(err, task) {
     if (err)
@@ -116,12 +116,12 @@ exports.update_a_task = function (req, res) {
     }
 
     //console.log(req.body);
-    logger.info(req);
+    //logger.info(req);
 
     //TBC: req.query.duedate / req.query.taskId/status
     //Task.findOneAndUpdate({ _id: req.params.taskId }, req.body, { new: true }, function(err, task) {
     //Task.findOneAndUpdate({ name: req.params.taskname }, req.body, { new: true },
-    Task.findOneAndUpdate({ name: req.params.taskname },
+    Task.findOneAndUpdate({ name: req.query.taskname },
         { status: req.query.status},
         { new: true },
         function (err, task) {

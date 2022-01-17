@@ -34,7 +34,7 @@ Commands:
 * list tasks expiring today: node taskclient.js list  --expiringtoday
 * list tasks expiring someday: node taskclient.js list 2022-01-01 --expiringtoday
 * create task: node taskclient.js create "MyTask1" 2022/01/20
-* update task status: node taskclient.js update "MyTask1" done
+* update task status: node taskclient.js update task10 completed -s
 * delete task: node taskclient.js delete mytask5
 
 1.5, Unit test:
