@@ -44,3 +44,5 @@ or
 * npm test
 
 2, The architecture, plese refer to TaskWebserviceDiagram.png or TaskWebserviceDiagram.vsdx in source code directory Doc
+
+3, The logfile is logfile.log in work directory, all operation could be loged in this logfile. 
