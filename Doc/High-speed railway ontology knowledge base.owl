@@ -1,0 +1,1178 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Administrative_information -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Administrative_information"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Chinese -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Chinese">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#language"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Conceptual_information -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Conceptual_information"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#English -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#English">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#language"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#French -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#French">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#language"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Lexical_information -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Lexical_information"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Spanish -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Spanish">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#language"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Term_variations -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Term_variations"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#acronym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#acronym">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Term_variations"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#adjective -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#adjective">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#part_of_speech"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#advantage -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#advantage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Conceptual_information"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#adverb -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#adverb">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#part_of_speech"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#approval_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#approval_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#date"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#approver -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#approver">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#responsibility"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#check_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#check_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#date"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#checker -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#checker">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#responsibility"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#context -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#context">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Conceptual_information"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#creation_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#date"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#creator -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#creator">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#responsibility"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#date">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Administrative_information"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#definition">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Conceptual_information"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#disadvantage -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#disadvantage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Conceptual_information"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#feminine -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#feminine">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#grammatical_gender"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#function -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#function">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Conceptual_information"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#grammatical_gender -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#grammatical_gender">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Lexical_information"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#language -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#language">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Lexical_information"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#masculine -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#masculine">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#grammatical_gender"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#modification_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#modification_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#date"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#modifier -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#modifier">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#responsibility"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#note -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#note">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Conceptual_information"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#noun -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#noun">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#part_of_speech"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#numeral -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#numeral">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#part_of_speech"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#obsolete_term -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#obsolete_term">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Term_variations"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#part_of_speech -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#part_of_speech">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Lexical_information"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#preferred_term -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#preferred_term">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Term_variations"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#prepositional_phrase -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#prepositional_phrase">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#part_of_speech"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#responsibility -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#responsibility">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Administrative_information"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#synonyms -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#synonyms">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Term_variations"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#verb -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#verb">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#part_of_speech"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isAssignedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isAssignedTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isCharacterizedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isCharacterizedWith"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isEquippedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isEquippedWith"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isInstanceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isInstanceOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isKindOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isKindOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isPartOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isPrototypeFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isPrototypeFor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isPrototypeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#isPrototypeOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Apply_to -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Apply_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Cycle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Cycle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Evaluation_index -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Evaluation_index"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Material -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Material"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Performance_parameter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Performance_parameter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Quantity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Quantity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Representation_of -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Representation_of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Standard_length -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Standard_length"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Technical_feature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Technical_feature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Technical_parameter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Technical_parameter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#Type"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#供电管理 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#供电管理">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#运营调度"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#供电系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#供电系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#牵引供电"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#列车网络系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#列车网络系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#动车组"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#制动系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#制动系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#动车组"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#动车组 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#动车组">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#高速铁路系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#变电系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#变电系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#牵引供电"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#地面子系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#地面子系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#通信信号"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#客运服务 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#客运服务">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#高速铁路系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#客运组织管理 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#客运组织管理">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#客运服务"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#客运调度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#客运调度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#运营调度"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#工务工程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#工务工程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#高速铁路系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#市场营销策划 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#市场营销策划">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#客运服务"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#总成 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#总成">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#动车组"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#接触网系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#接触网系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#牵引供电"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#旅客服务系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#旅客服务系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#客运服务"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#桥梁工程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#桥梁工程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#工务工程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#牵引供电 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#牵引供电">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#高速铁路系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#牵引系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#牵引系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#动车组"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#电力系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#电力系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#牵引供电"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#票务系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#票务系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#客运服务"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#站场工程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#站场工程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#工务工程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#综合维修 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#综合维修">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#运营调度"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#联锁子系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#联锁子系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#通信信号"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#调度集中控制系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#调度集中控制系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#通信信号"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#路基工程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#路基工程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#工务工程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#车体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#车体">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#动车组"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#车载子系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#车载子系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#通信信号"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#车辆管理 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#车辆管理">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#运营调度"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#工务工程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#转向架 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#转向架">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#动车组"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#运营调度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#运营调度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#高速铁路系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#运行管理 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#运行管理">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#运营调度"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#运输计划 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#运输计划">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#运营调度"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#远程监控系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#远程监控系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#牵引供电"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#通信信号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#通信信号">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#高速铁路系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#通信系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#通信系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#通信信号"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#隧道工程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#隧道工程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#工务工程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#高速铁路系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#高速铁路系统"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#abrasion_resistance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#abrasion_resistance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#aguja -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#aguja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#道岔"/>
+        <context>Casi todo los cambios de aguja en los trenes son automáticos.</context>
+        <definition>Raíl movible que sirve para cambiar de vía los trenes y los tranvías.</definition>
+        <grammatical_gender>feminine</grammatical_gender>
+        <language>Spanish</language>
+        <part_of_speech>noun</part_of_speech>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#aiguillage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#aiguillage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#道岔"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#anti-creep_equipment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#anti-creep_equipment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#cambio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#cambio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#道岔"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#ductility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#ductility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#durability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#durability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#durmiente -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#durmiente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#sleeper"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#durmiente"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#sleeper"/>
+        <Spanish></Spanish>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#elasticity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#elasticity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#lighting_equipment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#lighting_equipment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#locomotive_facilities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#locomotive_facilities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#marshalling_station -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#marshalling_station">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#pantographe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#pantographe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#pantógrafo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#pantógrafo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#rolling_stock_facility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#rolling_stock_facility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#shunting_equipment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#shunting_equipment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#sleeper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#sleeper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#traverse"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨枕"/>
+        <isCharacterizedWith rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#durability"/>
+        <isCharacterizedWith rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#elasticity"/>
+        <isCharacterizedWith rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#soundness"/>
+        <Material>wood，reinforced concrete</Material>
+        <Quantity>1520~1840/km</Quantity>
+        <Standard_length>regular sleeper：2.5m
+turnout sleeper：2.6~4.8m
+bridge sleeper：3.0~4.8m</Standard_length>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#durmiente"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#sleeper"/>
+        <Spanish></Spanish>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#sleeper"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨枕"/>
+        <Chinese></Chinese>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#soundness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#soundness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#strength -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#strength">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#track_bed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#track_bed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#traverse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#traverse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#turnout -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#turnout">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#道岔"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#受电弓 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#受电弓">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#坚固性 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#坚固性">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#弹性 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#弹性">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#强度 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#强度">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#扣件 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#扣件">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#无砟轨道 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#无砟轨道">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#有砟轨道 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#有砟轨道">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#机务设备 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#机务设备">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#照明设备 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#照明设备">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#编组站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#编组站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#耐久性 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#耐久性">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#耐磨性 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#耐磨性">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#调车设备 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#调车设备">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#车辆设备 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#车辆设备">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨枕 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨枕">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#sleeper"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨枕"/>
+        <Chinese></Chinese>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#道岔 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#道岔">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#道床 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#道床">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#防爬设备 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#防爬设备">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#韧性 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#韧性">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cyq/ontologies/2021/2/untitled-ontology-8#轨道工程"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
